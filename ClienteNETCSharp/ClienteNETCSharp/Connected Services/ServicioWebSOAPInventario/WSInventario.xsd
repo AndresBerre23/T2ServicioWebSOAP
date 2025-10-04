@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws/" targetNamespace="http://ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="calcularTotal" type="tns:calcularTotal" />
+  <xs:element name="calcularTotalResponse" type="tns:calcularTotalResponse" />
+  <xs:element name="consultarProducto" type="tns:consultarProducto" />
+  <xs:element name="consultarProductoResponse" type="tns:consultarProductoResponse" />
+  <xs:complexType name="consultarProducto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultarProductoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="calcularTotal">
+    <xs:sequence>
+      <xs:element name="cantidad" type="xs:int" />
+      <xs:element name="precioUnitario" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="calcularTotalResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

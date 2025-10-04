@@ -1,0 +1,8 @@
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\bin\Debug\ClienteNETCSharp.exe.config
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\bin\Debug\ClienteNETCSharp.exe
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\bin\Debug\ClienteNETCSharp.pdb
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\obj\Debug\ClienteNETCSharp.csproj.AssemblyReference.cache
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\obj\Debug\ClienteNETCSharp.csproj.CoreCompileInputs.cache
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\obj\Debug\ClienteNETCSharp.exe
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\obj\Debug\ClienteNETCSharp.pdb
+C:\Users\aberr\source\repos\ClienteNETCSharp\ClienteNETCSharp\obj\Debug\ClienteNETCSharp.exe.config
