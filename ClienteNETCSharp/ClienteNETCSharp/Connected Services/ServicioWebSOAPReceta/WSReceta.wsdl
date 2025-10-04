@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="WSReceta" targetNamespace="http://ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/ServicioWeb_SOAP/WSReceta?xsd=1" namespace="http://ws/" />
+    </xsd:schema>
+  </types>
+  <message name="listarIngredientes">
+    <part name="parameters" element="tns:listarIngredientes" />
+  </message>
+  <message name="listarIngredientesResponse">
+    <part name="parameters" element="tns:listarIngredientesResponse" />
+  </message>
+  <message name="buscarReceta">
+    <part name="parameters" element="tns:buscarReceta" />
+  </message>
+  <message name="buscarRecetaResponse">
+    <part name="parameters" element="tns:buscarRecetaResponse" />
+  </message>
+  <portType name="WSReceta">
+    <operation name="listarIngredientes">
+      <input wsam:Action="http://ws/WSReceta/listarIngredientesRequest" message="tns:listarIngredientes" />
+      <output wsam:Action="http://ws/WSReceta/listarIngredientesResponse" message="tns:listarIngredientesResponse" />
+    </operation>
+    <operation name="buscarReceta">
+      <input wsam:Action="http://ws/WSReceta/buscarRecetaRequest" message="tns:buscarReceta" />
+      <output wsam:Action="http://ws/WSReceta/buscarRecetaResponse" message="tns:buscarRecetaResponse" />
+    </operation>
+  </portType>
+  <binding name="WSRecetaPortBinding" type="tns:WSReceta">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="listarIngredientes">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="buscarReceta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSReceta">
+    <port name="WSRecetaPort" binding="tns:WSRecetaPortBinding">
+      <soap:address location="http://localhost:8080/ServicioWeb_SOAP/WSReceta" />
+    </port>
+  </service>
+</definitions>
