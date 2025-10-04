@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSReceta?Tester" uri="src/conf/xml-resources/web-service-references/WSReceta_Tester/wsdl/localhost_8080/ServicioWeb_SOAP/WSReceta.tester"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSInventario?WSDL" uri="src/conf/xml-resources/web-service-references/WSInventario/wsdl/localhost_8080/ServicioWeb_SOAP/WSInventario.wsdl"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSInventario?xsd=1" uri="src/conf/xml-resources/web-service-references/WSInventario/wsdl/localhost_8080/ServicioWeb_SOAP/WSInventario.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSReceta?WSDL" uri="src/conf/xml-resources/web-service-references/WSReceta/wsdl/localhost_8080/ServicioWeb_SOAP/WSReceta.wsdl"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSReceta?xsd=1" uri="src/conf/xml-resources/web-service-references/WSReceta/wsdl/localhost_8080/ServicioWeb_SOAP/WSReceta.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSOperaciones?WSDL" uri="src/conf/xml-resources/web-service-references/WSOperaciones/wsdl/localhost_8080/ServicioWeb_SOAP/WSOperaciones.wsdl"/>
+    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSOperaciones?xsd=1" uri="src/conf/xml-resources/web-service-references/WSOperaciones/wsdl/localhost_8080/ServicioWeb_SOAP/WSOperaciones.xsd_1.xsd"/>
+</catalog>
